@@ -1,0 +1,487 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: 0;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    background: #010b31;    
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 0;
+    right: 0;
+    align-items: center;
+    display: flex;
+    z-index: 1000;
+    padding: 20px 10%;
+    justify-content: space-between;
+}
+.logo{
+    color: #fff;
+    font-size: 35px;
+}
+.logo span{
+    color: darkorange;
+}
+.navmenu{
+    display: flex;
+    margin-right: 10%;
+}
+.navmenu a{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+.navmenu #home{
+    color: orange;
+}
+.navmenu #home:hover{
+    color: #fff;
+}
+.navmenu a:hover{
+    color: orange;
+}
+section{
+ padding: 0 15%;
+
+}
+.home{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+/* home imgage */
+.homeimg{
+    width: 700px;
+    height: auto;
+    margin-left: 10%;
+
+}
+.home-img img{
+object-fit: contain;
+max-width: 250px;
+margin-top: 100px;
+border-radius: 48%;
+margin-right: 50%;
+}
+.home-text{
+    margin-top: 70px;
+    margin-right: 15%;
+}
+.home-text h6{
+    color: #fff;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+.home-text h2{
+    list-style-position: inside;
+    color: darkorange;
+    font-size: 50px;
+}
+.home-text h2 span{
+    color: #fff;
+}
+.home-text p{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.main-btn{
+    transform: translate(-5px);
+    margin-top: 10px;
+}
+.btn{
+ background: darkorange;
+ color: #fff;
+ border: 2px solid orange;
+ border-radius: 10px;
+ padding: 5px;
+ margin: 0 3px;
+ transition: all .40s;
+}
+.btn:hover{
+    color: black;
+    background: #fff;
+
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    margin-right: 47%;
+    margin-top: 20px;
+    transition: all .42s ease;
+}
+.icons a{
+    color: #fff;
+    font-size: 30px;
+    padding: 3px;
+
+}
+ /* about-section */
+ .about{
+    /* padding: 20px 12%; */
+    margin-top: 20px;
+ }
+ .about-text{
+    text-align: center;
+ }
+ .about-text h6{
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+ }
+
+ .about-text h2{
+    color: orange;
+    text-transform: capitalize;
+    font-size: 30px;
+ }
+ .about-me{
+    position: relative;
+ }
+ .main-gol{
+    display: grid;
+    grid-template-columns: 40% 33% 33%;
+    align-items: center;
+
+ }
+ .ex-img img{
+    border-radius: 10px;
+    max-width: 220px;
+ }
+ .test{
+    border: 2px solid grey;
+    
+    width: 300px;
+    height: auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: grey;
+ }
+ .test h1 {
+     background-color: grey;
+    color: #fff;
+    font-size: 30px;
+ }
+ .test p{
+    background-color: grey;
+    color: #fff;
+ }
+ .pragraph{
+    color: #fff;
+    width: 300px;
+    margin-top: 10px;
+ }
+
+ section{
+    padding: 20px 12%;
+ }
+ .exp-text{
+    text-align: center;
+    color: orange;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+ .exp-text h6{
+    color: #fff;
+    font-size: 20px;
+    text-transform: capitalize;
+ }
+ .exp-text h2{
+    font-size: 35px;
+    text-transform: capitalize;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 15px;
+ }
+ .exper-sec{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    align-items: center;
+ }
+ .ex-pro{
+    color: #fff;
+    border: 2px solid grey;
+    display: inline-block;
+    width: 300px;
+    height: auto;
+     text-align: center;
+     padding: 10px;
+     background-color: orange;
+ }
+ .ex-pro h2{
+    color: #fff;
+    background-color: orange;
+    margin-bottom: 10px;
+    font-size: 25px;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+ }
+ h3::before{
+    content: url(../image/20px.png);
+ }
+ .ex-pro h3{
+   font-size: 19px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 500;
+   background-color: orange;
+ }
+ .ex-pro p{
+    color: #fff;
+    font-size: 14px;
+    text-transform: capitalize;
+    background-color: orange;
+ }
+ #big-co{
+    padding: 29px;
+ }
+
+ /* contect-section */
+  .contect{
+    padding: 30px 12%;
+    margin-top: 20px;
+  }
+ .contect-info{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, auto));
+    gap: 3rem;
+ }
+ /* .first-info a{
+    width: 140px ;
+    height: auto;
+ } */
+ .first-info a{
+    color: #fff;
+    font-size: 35px;
+    margin-bottom: 80px;
+}
+.first-info a span{
+    color: darkorange;
+}
+.contect-info h4{
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.contect-info p{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: 400;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all .42s;
+}
+.contect-info p i{
+    font-size: 20px;
+}
+.contect-info p:hover{
+    color: orange;
+}
+.social-icon i{
+    color: orange;
+    margin-right: 10px ;
+    font-size: 20px;
+    transition: all .42s;
+
+}
+.social-icon i:hover{
+    transform: scale(1.5);
+}
+.end-text{
+    background-color: orange;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
+.end-text p{
+    color: white;
+    text-transform: capitalize;
+    background-color: orange;
+}
+/* .about-text{
+    text-align: center;
+}
+.about-text h6{ 
+    color: #fff;
+    font-weight: 800;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+}
+.about-text h2{
+    color: darkorange;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    text-shadow: 2px 2px 5px grey;
+}
+.center{
+display: grid;
+grid-template-columns: 30% 33% 33%;
+gap: 2rem;
+margin-top: 50px;
+}
+.cen-text{
+    align-items: center;
+}
+.cen-img img{
+    border-radius: 10px;
+    max-width: 200px;
+}
+.cen-text .test{
+    border: 2px solid black;
+
+}
+.test h6,h1{
+    color: black;
+    background-color:#fff;
+    border-radius: 3px;
+    padding: 0 0 10px 50px;
+}
+.cen-text p{
+    color: #fff;
+    margin-top: 20px;
+    letter-spacing: 1px;
+}
+#experiance{
+    position: relative;
+}
+.Exp-subtitle{
+    color: rgb(231, 66, 0);
+    font-weight: 700;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+    background-color: #fff;
+}
+.details-cont{
+    background-color: #fff;
+    padding: 1.5rem;
+    flex: 1;
+    border-radius: 2rem;
+    border: 2px solid black;
+    border-color: black;
+    text-align: center;
+    margin: 30px;
+
+}
+.experiance-cont{
+display: flex;
+justify-content: center;
+flex-direction: column;
+object-fit: contain;
+background-color: #fff;
+
+}
+.article-cont{
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+justify-content: space-around;
+background-color: #fff;
+/* display: grid;
+grid-template-columns: 33% 33% 33%;
+gap: 2rem;
+margin-top: 50px;
+}
+article{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    gap: 2rem;
+    margin-top: 50px;
+    background-color: #fff;
+}
+.section-text{
+    color: orange;
+    margin-left: 45%;
+    margin-top: 200px;
+
+}
+.title{
+    margin-left: 37%;
+    font-size: 35px;
+    background-color: #010b31;
+    color: #fff;
+}
+.experiance p{
+    margin-top: 100px;
+    padding: 200px;
+    
+}
+article h3{
+    color: black;
+    background-color: #fff;
+    font-weight: 900;
+
+}
+article p{
+    color: black;
+    background-color: #fff;
+    font-weight: 700;
+}
+.tick-box:before{
+    background-image: url(images/tick20.jpg);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.about-con,.details-con{
+    background: black;
+    border-radius: 1rem;
+}
+
+.text-pro{
+    text-align: center;
+    text-transform: capitalize;
+}
+.text-pro h6 {
+    color: orange;
+    font-size: 15px;
+}
+.text-pro h6 span{
+    color: #fff;
+}
+.text-pro h2{
+    color: orange;
+    font-size: 40px;
+    font-weight: 600;
+}
+.test33{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+    gap: 0;
+}
+.pro-row{
+    position: relative;
+    transition: all .40s;
+}
+.pro-row img{
+ border: 2px solid orange;
+ background-color:  grey;
+ border-radius: 10px;
+}
+
+.pro-text h3{
+    color: #fff;
+}
+.pro-text p{
+    color: orange;
+} */
